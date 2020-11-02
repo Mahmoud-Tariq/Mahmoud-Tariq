@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>S2yyyyyyyyy</title>
+	<style>
+	html{background-color:#fbbf84;}
+	.container{
+		  display: grid;
+		  grid-template-columns:30fr 30fr 30fr 20fr;
+          grid-template-rows: 80px 250px 500px 80px;
+			grid-gap:15px;
+		}
+	.grid-item
+			{background-color:#f45129;
+				border: 1px solid #631852;
+				color: white;
+				font-size: 3em;}
+	.e{transition-property: width 3s;
+		transition-duration:2s;}
+	.e:hover{width:599px;
+		opacity: 50%;
+		}
+    .grid-item4{grid-row-start: 2;
+      	grid-row-end:4;
+      	grid-column-start: 4;}
+    .grid-item5{grid-column-start: 1;
+      		grid-column-end:4;}
+    .h{grid-column-start:1;
+      grid-column-end: all;
+      grid-row-start:1;
+      grid-row-end: 2;
+      font-size: 4em;
+      text-align: center;
+      background-color:#0a0f25;}
+    .f{grid-column-start:1;
+      grid-column-end: all;
+  grid-row-start:4;
+      grid-row-end:5;
+      font-size: 4em;
+      text-align: center;
+      background-color: #4c3e62;}
+    
+	</style>
+	
+</head>
+<body>
+	<div class="container">
+	<div class="grid-item h"> header </div>
+	<div class="grid-item e">Small box 1</div>
+    <div class="grid-item e">Small box2</div>
+    <div class="grid-item e">Small box3</div>
+    <div class="grid-item grid-item4">Side bar</div>
+    <div class="grid-item grid-item5">Main Content</div>
+    <div class="grid-item f"> footer</div>
+
+	</div><br>
+
+</body>
+</html>
