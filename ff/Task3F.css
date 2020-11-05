@@ -22,6 +22,7 @@ background-width:320px;
 background-repeat: no-repeat;
 transition-timing-function: 2s;}
 .photo:hover{
+	transition-duration:0.5s;
 	opacity: 70%;
 	cursor: pointer;}
 .name{
@@ -73,7 +74,7 @@ background-color: #fbc38d;}
 }
 .icon{width: 13px;
 height: 17px;}
-#mar{margin-left: 30px;
+#mar{margin-left: 40px;
 justify-content: flex-start;}
 .wa7d{background-image:url('st.jpg'); }
 .tnen{background-image: url('glass.jpg');}
